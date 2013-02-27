@@ -1,0 +1,24 @@
+{
+                    
+    "name"          : "atropa-jslint",
+    "version"       : "0.0.9",
+    "main"          : "./atropa-jslint.js",
+    "description"   : "A node module wrapper for jslint.",
+    "keywords"      : ["jslint", "utilities", "atropa"],
+    "homepage"      : "https://github.com/matthewkastor/atropa-jslint/",
+    "bugs"          : "https://github.com/matthewkastor/atropa-jslint/issues",
+    "author"        : {
+                        "name"      : "Matthew Kastor",
+                        "email"     : "matthewkastor@gmail.com",
+                        "url"       : "https://plus.google.com/100898583798552211130"
+    },
+    "repository"    : {
+                        "type"      : "git",
+                        "url"       : "git://github.com/matthewkastor/atropa-jslint.git"
+    },
+    "engines"       : {
+                        "node"      : ">=0.8.14"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
