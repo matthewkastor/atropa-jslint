@@ -28,7 +28,7 @@ if(result) {
 ```
 
 
-## Update to the JsLint version.
+## Update to the latest JsLint version.
 
 ```
 var jslint = require('atropa-jslint');
