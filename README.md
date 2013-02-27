@@ -1,8 +1,13 @@
 # atropa-jslint
 
-A node module wrapper for jslint.
+A [node](http://nodejs.org/) module wrapper for jslint.
 
 All this does is export the jslint function, and allow you to update the jslint version easily, it's simple.
+
+## Installation
+```
+npm install atropa-jslint
+```
 
 ## General use
 See `lib/jslint.js` for full documentation on jslint.
@@ -41,4 +46,9 @@ jslint.update();
 ```
 var jslint = require('atropa-jslint');
 jslint.rollbackUpdate();
+```
+
+## Update atropa-jslint
+```
+npm update atropa-jslint
 ```
