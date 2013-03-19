@@ -1,7 +1,7 @@
 {
                     
     "name"          : "atropa-jslint",
-    "version"       : "0.0.9-1",
+    "version"       : "0.0.9-2",
     "main"          : "./atropa-jslint.js",
     "description"   : "A node module wrapper for jslint.",
     "keywords"      : ["jslint", "utilities", "atropa"],
