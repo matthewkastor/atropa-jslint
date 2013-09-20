@@ -10,7 +10,29 @@ npm install atropa-jslint
 ```
 
 ## General use
+
 See `lib/jslint.js` for full documentation on jslint.
+
+Give it a file called `mySource.js` on the command line and see results in the
+ console.
+
+```
+node_modules/.bin/atropa-jslint mySource.js
+```
+
+Add an output file to the command to have the results written there
+
+```
+node_modules/.bin/atropa-jslint mySource.js myResults.txt
+```
+
+fun with pipes
+
+```
+echo x = 2 | node_modules/.bin/atropa-jslint "" myResults.txt
+```
+
+do it from scripts
 
 ```
 var os = require('os');
