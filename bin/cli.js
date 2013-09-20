@@ -35,8 +35,7 @@ var cli = {
             var out = JSLINT.data();
             out = {
                 errors: out.errors,
-                global: out.global,
-                functions: out.functions
+                global: out.global
             };
             out = JSON.stringify(out, null, '    ');
             if(outfile) {
